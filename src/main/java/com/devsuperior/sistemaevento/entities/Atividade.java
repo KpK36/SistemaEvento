@@ -13,6 +13,10 @@ public class Atividade {
     private String descricao;
     private Double preco;
 
+    @ManyToOne
+    @JoinColumn(name = "categoria_id")
+    private Categoria categoria;
+
     public Atividade() {
     }
 
