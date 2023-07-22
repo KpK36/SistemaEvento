@@ -8,3 +8,10 @@ INSERT INTO tb_participante (nome, email) VALUES ('José Silva', 'jose@gmail.com
 INSERT INTO tb_participante (nome, email) VALUES ('Tiago Faria', 'tiago@gmail.com')
 INSERT INTO tb_participante (nome, email) VALUES ('Maria do Rosário', 'maria@gmail.com')
 INSERT INTO tb_participante (nome, email) VALUES ('Teresa Silva', 'teresa@gmail.com')
+
+INSERT INTO tb_participante_atividade (participante_id, atividade_id) VALUES (1, 1)
+INSERT INTO tb_participante_atividade (participante_id, atividade_id) VALUES (1, 2)
+INSERT INTO tb_participante_atividade (participante_id, atividade_id) VALUES (2, 1)
+INSERT INTO tb_participante_atividade (participante_id, atividade_id) VALUES (3, 1)
+INSERT INTO tb_participante_atividade (participante_id, atividade_id) VALUES (3, 2)
+INSERT INTO tb_participante_atividade (participante_id, atividade_id) VALUES (4, 2)
